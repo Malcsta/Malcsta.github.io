@@ -369,7 +369,7 @@ h2 {
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     .skill-container {
         display: grid;
         width: 400px;
