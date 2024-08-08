@@ -235,7 +235,6 @@ h2 {
     height: 461px;
     margin: 0 auto;
     animation: pageFadeIn ease 1s;
-
 }
 
 .skill {
@@ -358,5 +357,27 @@ h2 {
 
     #mail, #insta, #github, #linkedin {
         display: flex;
+    }
+}
+
+@media (max-width: 1900px) {
+    .skill-container {
+        display: grid;
+        width: 1200px;
+        height: 1300px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 1000px) {
+    .skill-container {
+        display: grid;
+        width: 400px;
+        height: 2050px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #link-logos1, #link-logos2 {
+        transform: scale(0.8);
     }
 }
