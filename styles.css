@@ -219,7 +219,18 @@ h2 {
     margin-right: 30px; /* Space between images */
 }
 
-#bean, #bier, #gallery, #romance, #street, #subway, #lev, #tim {
+#bean, 
+#bier, 
+#gallery, 
+#romance, 
+#street, 
+#subway, 
+#lev, 
+#tim,
+#bird,
+#bmw,
+#skyline,
+#plane {
     animation: pageFadeIn ease 1s;
     height: 400px;
     vertical-align: middle;
@@ -266,6 +277,34 @@ h2 {
     height: 501px;
     padding-bottom: 30px;
     animation: pageFadeIn ease 1s;
+}
+
+.hFcontent {
+    display: flex;
+    flex-direction: column; /* Makes children stack vertically */
+    text-align: center;
+    justify-content: center;
+    font-family: "Jetbrains mono";
+    color: white;
+    height: 501px;
+    padding-bottom: 30px;
+    animation: pageFadeIn ease 1s;
+}
+
+.hFcontent a {
+    margin: 50px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hFcontent a:hover {
+    color: #42b373;
+    animation-duration: 3ms;
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+    text-shadow: 0 0 1em currentColor;
 }
 
 .contactsheet {
