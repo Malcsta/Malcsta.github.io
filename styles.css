@@ -196,7 +196,7 @@ h2 {
     animation: pageFadeIn ease 1s;
     padding-bottom: 30px;
     overflow: hidden;
-    place-items: center; /* Center items in the grid */
+    place-items: center;    
 }
 
 .photoContent {
